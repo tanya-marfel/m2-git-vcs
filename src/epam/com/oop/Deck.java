@@ -1,7 +1,6 @@
 package epam.com.oop;
 
 public class Deck {
-
 	public static int numSuits = 4;
 	public static int numRanks = 13;
 	public static int numCards = numSuits * numRanks;
@@ -20,4 +19,5 @@ public class Deck {
 	public Card getCard(int suit, int rank) {
 		return cards[suit - 1][rank - 1];
 	}
+
 }

@@ -13,4 +13,13 @@ public class Deck3 {
 			}
 		}
 	}
+
+	public void getCard() {
+		for (Card3 card : cards) {
+			Rank rank = card.getRank();
+			Suit suit = card.getSuit();
+			System.out.println(card.toString());
+		}
+		
+	}
 }

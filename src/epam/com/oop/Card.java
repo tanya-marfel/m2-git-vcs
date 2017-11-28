@@ -99,4 +99,27 @@ public class Card {
 		}
 	}
 
+	public static void main(String[] args) {
+
+		assert rankToString(ACE) == "Ace";
+		assert rankToString(DEUCE) == "Deuce";
+		assert rankToString(THREE) == "Three";
+		assert rankToString(FOUR) == "Four";
+		assert rankToString(FIVE) == "Five";
+		assert rankToString(SIX) == "Six";
+		assert rankToString(SEVEN) == "Seven";
+		assert rankToString(EIGHT) == "Eight";
+		assert rankToString(NINE) == "Nine";
+		assert rankToString(TEN) == "Ten";
+		assert rankToString(JACK) == "Jack";
+		assert rankToString(QUEEN) == "Queen";
+		assert rankToString(KING) == "King";
+
+		assert suitToString(DIAMONDS) == "Diamonds";
+		assert suitToString(CLUBS) == "Clubs";
+		assert suitToString(HEARTS) == "Hearts";
+		assert suitToString(SPADES) == "Spades";
+
+	}
+
 }

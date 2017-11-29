@@ -101,28 +101,28 @@ public class Card {
 
 	public static void main(String[] args) {
 		try {
-			assert rankToString(ACE) == "Ace";
-			assert rankToString(DEUCE) == "Deuce";
-			assert rankToString(THREE) == "Three";
-			assert rankToString(FOUR) == "Four";
-			assert rankToString(FIVE) == "Five";
-			assert rankToString(SIX) == "Six";
-			assert rankToString(SEVEN) == "Seven";
-			assert rankToString(EIGHT) == "Eight";
-			assert rankToString(NINE) == "Nine";
-			assert rankToString(TEN) == "Ten";
-			assert rankToString(JACK) == "Jack";
-			assert rankToString(QUEEN) == "Queen";
-			assert rankToString(KING) == "King";
+			assert rankToString(ACE).equals("Ace");
+			assert rankToString(DEUCE).equals("Deuce");
+			assert rankToString(THREE).equals("Three");
+			assert rankToString(FOUR).equals("Four");
+			assert rankToString(FIVE).equals("Five");
+			assert rankToString(SIX).equals("Six");
+			assert rankToString(SEVEN).equals("Seven");
+			assert rankToString(EIGHT).equals("Eight");
+			assert rankToString(NINE).equals("Nine");
+			assert rankToString(TEN).equals("Ten");
+			assert rankToString(JACK).equals("Jack");
+			assert rankToString(QUEEN).equals("Queen");
+			assert rankToString(KING).equals("King");
 			System.out.println("Rank assertion passed successfully.");
 		} catch (AssertionError e) {
 			System.out.println("Rank assertion failed.");
 		}
 		try {
-			assert suitToString(DIAMONDS) == "Diamonds";
-			assert suitToString(CLUBS) == "Clubs";
-			assert suitToString(HEARTS) == "Hearts";
-			assert suitToString(SPADES) == "Spades";
+			assert suitToString(DIAMONDS).equals("Diamonds");
+			assert suitToString(CLUBS).equals("Clubs");
+			assert suitToString(HEARTS).equals("Hearts");
+			assert suitToString(SPADES).equals("Spades");
 			System.out.println("Suit assertion passed successfully.");
 		} catch (AssertionError e) {
 			System.out.println("Suit assertion failed.");
